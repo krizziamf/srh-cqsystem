@@ -1,0 +1,17 @@
+@-webkit-keyframes marquee {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: -100%;
+  }
+}
+@keyframes marquee {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: -100%;
+  }
+}
+/*# sourceMappingURL=view.css.map */

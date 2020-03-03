@@ -1,6 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap); 
 $bgColor: #FFFFFF;
-$sFont: 'Roboto';
+
 
 .login-container {
     width: 100%;
@@ -24,7 +23,7 @@ $sFont: 'Roboto';
         border-radius: 12px;
 
       input {
-        font-family: $sFont;
+        font-family: "Roboto", sans-serif;
         outline: 0;
         background: #f2f2f2;
         width: 100%;
@@ -35,7 +34,7 @@ $sFont: 'Roboto';
         font-size: 14px;
       }
       button {
-        font-family: $srhFont;
+        font-family: "Roboto", sans-serif;
         text-transform: uppercase;
         outline: 0;
         background: #4CAF50;
