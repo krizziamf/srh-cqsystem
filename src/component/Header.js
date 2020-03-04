@@ -1,11 +1,11 @@
 import React from 'react';
-import '../style/view.css';
+import '../style/header.css';
 
 
 function Header() {
     return(
         <article className="srh-header">
-            <marquee behavior="scroll" direction="right"><h1><span>STO. ROSARIO HOSPITAL</span></h1></marquee>
+            <marquee behavior="scroll" direction="right"><h1>STO. ROSARIO HOSPITAL</h1></marquee>
         </article>
     )
 }

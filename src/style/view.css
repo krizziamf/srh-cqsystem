@@ -1,17 +1,65 @@
-@-webkit-keyframes marquee {
-  0% {
-    right: 0;
-  }
-  100% {
-    right: -100%;
+.view-container {
+  height: 100vh;
+  background-color: #EBF5FB;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  margin: 2em auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-container .flex-item-1 {
+  background-color: #16A085;
+}
+
+.flex-container .flex-item-2 {
+  background-color: #2874A6;
+}
+
+.flex-container .flex-item-3 {
+  background-color: #BA4A00;
+}
+
+.flex-container .flex-item-4 {
+  background-color: #B03A2E;
+}
+
+.flex-item {
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  margin: 1em;
+  border-radius: 12px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+@media screen and (min-width: 320px) {
+  .flex-item {
+    width: 100vw;
   }
 }
-@keyframes marquee {
-  0% {
-    right: 0;
+
+@media screen and (min-width: 640px) {
+  .flex-item {
+    width: calc(50vw - 4em);
   }
-  100% {
-    right: -100%;
+}
+
+@media screen and (min-width: 960px) {
+  .flex-item {
+    width: calc(25vw - 4em);
   }
 }
 /*# sourceMappingURL=view.css.map */
