@@ -5,7 +5,7 @@ import '../style/main.css';
 function Login() {
     return(
         <div className="login-container">
-            <form class="login-form">
+            <form className="login-form">
             <h1 className="login-title">Sign In</h1>
                 <div>
                     {/* <i class="fas fa-user"></i> */}
