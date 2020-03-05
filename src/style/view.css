@@ -1,5 +1,5 @@
 .view-container {
-  height: 100vh;
+  height: 90vh;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.9))), url(/images/srh1.jpg);
   background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.9)), url(/images/srh1.jpg);
 }
@@ -22,6 +22,7 @@
 
 .flex-container h1 {
   font-size: 8vh;
+  color: #062C67;
   margin: 0 20px;
   padding: 10px;
 }
