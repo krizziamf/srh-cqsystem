@@ -8,7 +8,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        <Adult />
+          <View />
+          {/* <Login /> */}
     </div>
   );
 }

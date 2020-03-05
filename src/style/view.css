@@ -1,36 +1,29 @@
 .view-container {
   height: 100vh;
-  background-color: #EBF5FB;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.6))), url(/images/srh1.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(/images/srh1.jpg);
 }
 
 .flex-container {
   padding: 0;
   margin: 0;
-  margin: 2em auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.flex-container .flex-item-1 {
-  background-color: #16A085;
-}
-
-.flex-container .flex-item-2 {
-  background-color: #2874A6;
-}
-
-.flex-container .flex-item-3 {
-  background-color: #BA4A00;
-}
-
-.flex-container .flex-item-4 {
-  background-color: #B03A2E;
+.flex-container h1 {
+  font-size: 8vh;
+  margin: 0 20px;
+  padding: 10px;
 }
 
 .flex-item {
@@ -39,10 +32,29 @@
   font-size: 3em;
   text-align: center;
   margin: 1em;
-  border-radius: 12px;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
+}
+
+.flex-item .flex-item-1 {
+  background-color: #16A085;
+  border-radius: 12px;
+}
+
+.flex-item .flex-item-2 {
+  background-color: #2874A6;
+  border-radius: 12px;
+}
+
+.flex-item .flex-item-3 {
+  background-color: #BA4A00;
+  border-radius: 12px;
+}
+
+.flex-item .flex-item-4 {
+  background-color: #B03A2E;
+  border-radius: 12px;
 }
 
 @media screen and (min-width: 320px) {

@@ -1,11 +1,9 @@
 .srh-header {
-  background-color: #fff;
+  background-color: transparent;
+  margin: 0;
 }
 
 .srh-header h1 {
-  color: #0A3D5C;
   font-size: 2.5rem;
-  margin: 10px;
-
 }
 /*# sourceMappingURL=header.css.map */

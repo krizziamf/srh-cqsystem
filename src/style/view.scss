@@ -1,27 +1,21 @@
 .view-container {
     height: 100vh;
-    background-color: #EBF5FB;
+    background: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url(/images/srh1.jpg);
 }
 
 .flex-container {
     padding: 0;
     margin: 0;
-    margin: 2em auto;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 
-    .flex-item-1 {
-        background-color: #16A085;
-    }
-    .flex-item-2 {
-        background-color: #2874A6;
-    }
-    .flex-item-3 {
-        background-color: #BA4A00;
-    }
-    .flex-item-4 {
-        background-color: #B03A2E;
+    h1 {
+        font-size: 8vh;
+        // color: #000;
+        margin: 0 20px;
+        padding: 10px;
     }
   }
   
@@ -31,9 +25,27 @@
     font-size: 3em;
     text-align: center;
     margin: 1em;
-    border-radius: 12px;
     flex: 1 1 auto;
-  
+    
+    
+    .flex-item-1 {
+        background-color: #16A085;
+        border-radius: 12px;
+    }
+    .flex-item-2 {
+        background-color: #2874A6;
+        border-radius: 12px;
+    }
+    .flex-item-3 {
+        background-color: #BA4A00;
+        border-radius: 12px;
+    }
+    .flex-item-4 {
+        background-color: #B03A2E;
+        border-radius: 12px;
+    }
+
+
     @media screen and (min-width: 320px) {
      width: 100vw;
     }

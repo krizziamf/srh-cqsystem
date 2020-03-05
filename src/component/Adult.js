@@ -10,7 +10,7 @@ function Adult() {
                 <h1>CURRENT QUEUE</h1>
                 <h1>3</h1>
                 <button className="add-btn">ADD QUEUE</button>
-                <button className="reset-btn">RESET</button>
+                <a href="#" className="reset-btn">Reset</a>
             </div>
         </div>
     )

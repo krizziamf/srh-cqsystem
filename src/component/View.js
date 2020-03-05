@@ -8,10 +8,22 @@ function View() {
         <div className="view-container">
         <Header />
             <div class="flex-container">
-                <div class="flex-item flex-item-1">PEDIA</div>
-                <div class="flex-item flex-item-2">ADULT</div>
-                <div class="flex-item flex-item-3">ER</div>
-                <div class="flex-item flex-item-4">CASHIER</div>
+                <div class="flex-item">
+                    <div className="flex-item-1">PEDIA</div>
+                    <h1>6</h1>
+                </div>
+                <div class="flex-item">
+                    <div className="flex-item-2">ADULT</div>
+                    <h1>100</h1>
+                </div>
+                <div class="flex-item">
+                <div className="flex-item-3">ER</div>
+                    <h1>7</h1>
+                </div>
+                <div class="flex-item">
+                    <div className="flex-item-4">CASHIER</div>
+                    <h1>6</h1>
+                </div>
             </div>
         </div>
     )
