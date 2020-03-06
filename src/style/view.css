@@ -1,11 +1,11 @@
 .view-container {
-  height: 90vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.9))), url(/images/srh1.jpg);
-  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.9)), url(/images/srh1.jpg);
+  height: 83vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.8))), url(/images/srh1.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.8)), url(/images/srh1.jpg);
 }
 
 .flex-container {
-  padding: 0;
+  padding: 50px 0;
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,18 +21,19 @@
 }
 
 .flex-container h1 {
-  font-size: 8vh;
+  font-size: 175px;
   color: #062C67;
-  margin: 0 20px;
+  margin: auto;
   padding: 10px;
 }
 
 .flex-item {
+  height: 65vh;
   color: white;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 4.2em;
   text-align: center;
-  margin: 0.2em;
+  margin: 0.1em;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;

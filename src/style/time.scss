@@ -1,0 +1,15 @@
+.time__container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    .date_time {
+        display: flex;
+        flex-direction: row;
+        margin: 4px;
+
+        p {
+            margin: 0 5px;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+$footerColor: #062c67;
+$footerFontSize: 1.8rem;
+$footerFontW: bold;
+
+.footer-container {
+    color: $footerColor;
+    font-size: $footerFontSize;
+    font-weight: $footerFontW;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    p {
+        margin: 0;
+    }
+    .contact { 
+        p {
+            margin: 4px 0;
+        }
+    }
+}
