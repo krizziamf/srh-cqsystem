@@ -9,8 +9,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-          <View />
-          <Footer />
+      <Adult />
+          {/* <View /> */}
+          {/* <Footer /> */}
           {/* <Login /> */}
     </div>
   );

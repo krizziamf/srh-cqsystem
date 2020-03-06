@@ -14,7 +14,7 @@ function View() {
                 </div>
                 <div class="flex-item">
                     <div className="flex-item-2">ADULT</div>
-                    <h1>100</h1>
+                    <h1>120</h1>
                 </div>
                 <div class="flex-item">
                 <div className="flex-item-3">ER</div>
