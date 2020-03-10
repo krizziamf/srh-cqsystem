@@ -1,14 +1,16 @@
 $footerColor: #062c67;
-$footerFontSize: 1.8rem;
+$footerFontSize: 2.3rem;
 $footerFontW: bold;
 
 .footer-container {
     color: $footerColor;
     font-size: $footerFontSize;
     font-weight: $footerFontW;
+    padding: 0;
+    margin: 0;
     display: flex;
     align-items: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
     flex-direction: row;
     p {
@@ -16,7 +18,7 @@ $footerFontW: bold;
     }
     .contact { 
         p {
-            margin: 4px 0;
+            margin: 15px 0;
         }
     }
 }

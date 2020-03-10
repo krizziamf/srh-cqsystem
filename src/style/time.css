@@ -19,7 +19,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin: 4px;
+  margin: 8px;
 }
 
 .time__container .date_time p {

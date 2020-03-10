@@ -1,17 +1,23 @@
 import React from 'react';
+import Header from '../component/Header';
 import '../style/user.css';
 
 
 function Adult() {
     return(
-        <div className="adult-container">
-            <div className="adult-center"> 
-                <h1 className="adult-title">ADULT</h1>
-                <h1>CURRENT QUEUE</h1>
-                <h1>3</h1>
+        <div className="user-container">
+             <div className="logout__div">
+                    <a href="#" className="logout-btn">Logout</a>
+                </div>
+            <form className="user-center"> 
+                <div className="adult__title-div">
+                <h1 className="user__title">ADULT</h1>
+                </div>
+                <h1 className="current-queue">CURRENT QUEUE</h1>
+                <h1 className="queue">3</h1>
                 <button className="add-btn">ADD QUEUE</button>
                 <a href="#" className="reset-btn">Reset Queue</a>
-            </div>
+            </form>
         </div>
     )
 }

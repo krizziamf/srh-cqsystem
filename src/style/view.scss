@@ -2,13 +2,14 @@ $viewFontSize: 4.2em;
 $viewBorder: 12px;
 
 .view-container {
-    height: 83vh;
+    height: 80vh;
     background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.8)), url(/images/srh1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .flex-container {
-    padding: 40px 0;
-    margin: 0;
+    padding: 20px 0;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -23,12 +24,11 @@ $viewBorder: 12px;
 }
   
   .flex-item {
-    height: 65vh;
     color: white;
     font-weight: bold;
     font-size: $viewFontSize;
     text-align: center;
-    margin: 0.1em;
+    margin: 0 0.1em;
     flex: 1 1 auto;
     
     

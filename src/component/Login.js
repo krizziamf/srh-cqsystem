@@ -3,6 +3,12 @@ import '../style/login.css';
 
 
 function Login() {
+    const shoppingList = ['Milk','Cow', 'banana'];
+
+    const newList = shoppingList.map (item => item + "new");
+    
+
+    console.log(newList);
     return(
         <div className="login-container">
             <form className="login-form">

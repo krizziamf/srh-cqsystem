@@ -22,7 +22,7 @@ function View() {
                 </div>
                 <div class="flex-item">
                     <div className="flex-item-4">CASHIER</div>
-                    <h1>6</h1>
+                    <h1>10</h1>
                 </div>
             </div>
         </div>
