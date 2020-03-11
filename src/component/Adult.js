@@ -3,7 +3,7 @@ import Header from '../component/Header';
 import '../style/user.css';
 
 
-function Adult() {
+export default function Adult() {
     return(
         <div className="user-container">
              <div className="logout__div">
@@ -21,5 +21,3 @@ function Adult() {
         </div>
     )
 }
-
-export default Adult;

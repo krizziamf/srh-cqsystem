@@ -2,13 +2,7 @@ import React from 'react';
 import '../style/login.css';
 
 
-function Login() {
-    const shoppingList = ['Milk','Cow', 'banana'];
-
-    const newList = shoppingList.map (item => item + "new");
-    
-
-    console.log(newList);
+export default function Login() {
     return(
         <div className="login-container">
             <form className="login-form">
@@ -24,8 +18,6 @@ function Login() {
                 <button>login</button>
             </form>
         </div>
-      
     );
 }
 
-export default Login;

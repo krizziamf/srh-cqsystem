@@ -3,10 +3,10 @@ import Header from '../component/Header';
 import '../style/view.css';
 
 
-function View() {
+function View({props}) {
     return(
         <div className="view-container">
-        <Header />
+        <Header/>
             <div class="flex-container">
                 <div class="flex-item">
                     <div className="flex-item-1">PEDIA</div>

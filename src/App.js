@@ -16,7 +16,7 @@ function App() {
           {/* <Adult /> */}
           {/* <Cashier /> */}
           {/* <Er /> */}
-          {/* <View /> */}
+          {/* <View/> */}
           {/* <Footer /> */}
           <Login />
     </div>
