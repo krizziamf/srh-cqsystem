@@ -121,21 +121,26 @@
 }
 
 .user-center .add-btn {
+  font-size: 1.5rem;
+  color: #fff;
+  background: #4CAF50;
   margin: 15px;
   border-radius: 5px;
-  font-size: 1.5rem;
+  border: solid #4CAF50;
   cursor: pointer;
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
 }
 
 .user-center .add-btn:hover {
-  color: white;
-  background: #2874A6;
+  font-size: 1.5rem;
+  color: #4CAF50;
+  border: solid #4CAF50;
+  background-color: #fff;
 }
 
 .user-center .add-btn:active {
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 .user-center .reset-btn {
