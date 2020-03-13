@@ -12,9 +12,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-          <Pedia />
+          {/* <Pedia /> */}
           {/* <Adult /> */}
-          {/* <Cashier /> */}
+          <Cashier />
           {/* <Er /> */}
           {/* <View/> */}
           {/* <Footer /> */}

@@ -32,8 +32,8 @@ class Er extends Component {
                     <h1 className="user__title">Emergency Room(ER)</h1>
                     </div>
                     <h1 className="current-queue">CURRENT QUEUE</h1>
-        <h1 className="queue">{this.state.count}</h1>
-                    <button className="add-btn" onClick={() => this.increment()}>ADD QUEUE</button>
+                     <h1 className="queue">{this.state.count}</h1>
+                     <button className="add-btn" onClick={() => this.increment()}><a href="#">ADD QUEUE</a></button>
                     <a href="#" className="reset-btn">Reset Queue</a>
                 </form>
             </div>

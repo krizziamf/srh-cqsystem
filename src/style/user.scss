@@ -89,13 +89,16 @@
         margin: 15px;
         border-radius: 5px;
         border: solid #4CAF50;
+            a {
+                width: auto;
+                text-decoration: none;
+                color: #fff;
+            }
           cursor: pointer;
           transition: all 0.25s ease;
           &:hover {
             font-size: 1.5rem;
-            color: #4CAF50;
-            border: solid #4CAF50;
-            background-color: #fff;
+            color: #fff;
           }
           &:active {
             letter-spacing: 3px ;

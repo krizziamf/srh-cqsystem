@@ -33,7 +33,7 @@ class Cashier extends Component {
                     </div>
                     <h1 className="current-queue">CURRENT QUEUE</h1>
                     <h1 className="queue">{this.state.count}</h1>
-                    <button className="add-btn" onClick={() => this.increment()}>ADD QUEUE</button>
+                    <button className="add-btn" onClick={() => this.increment()}><a href="#">ADD QUEUE</a></button>
                     <a href="#" className="reset-btn">Reset Queue</a>
                 </form>
             </div>

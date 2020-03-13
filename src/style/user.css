@@ -132,11 +132,15 @@
   transition: all 0.25s ease;
 }
 
+.user-center .add-btn a {
+  width: auto;
+  text-decoration: none;
+  color: #fff;
+}
+
 .user-center .add-btn:hover {
   font-size: 1.5rem;
-  color: #4CAF50;
-  border: solid #4CAF50;
-  background-color: #fff;
+  color: #fff;
 }
 
 .user-center .add-btn:active {
